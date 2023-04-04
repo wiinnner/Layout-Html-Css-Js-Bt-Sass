@@ -1,4 +1,4 @@
-Undelete<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,25 +6,30 @@ Undelete<!DOCTYPE html>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>TehnoGaz</title>
-  <meta content="" name="description">
+  <meta content="" name="description">  	
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link  href="assets/img/logoprincipal.png" rel="icon">
+  <link href="assets/img/logoprincipal.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+ <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+ <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+ 
+ 
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -36,17 +41,28 @@ Undelete<!DOCTYPE html>
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <h1>TehnoGaz</h1>
-      </a>
+      <a href="index.html" class="">
+      <img src="assets/img/logo-removebg-preview.png" style="width: 300px; height: 85px;" alt=""> </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Дома</a></li>
-          <li><a href="contact.html">Контакты</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Заявка</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Газификация</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#proectirov">Проектирование</a></li>
+              <li><a class="dropdown-item" href="#gazfic">Промышленная газификация</a></li>
+              <li><a class="dropdown-item" href="#dom">Газификация <br> домов</a></li>
+
+              <li><a class="dropdown-item" href="#snt">Газификация СНТ</a></li>
+            </ul>
+          </li>        
+
+          <li><a href="#gallery"> Примеры наших работ</a></li>
+          <li><a href="#testimonials"> Отзывы</a></li>
+            <li><a href="#footer">Контакты</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -54,131 +70,49 @@ Undelete<!DOCTYPE html>
   </header><!-- End Header -->
   <!-- End Header -->
 
+
+  
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
-      <div class="row gy-4 d-flex justify-content-between">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2 data-aos="fade-up">Добро пожаловать!</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Добро пожаловать на сайт специализирующийся на ремонте катлов! Мы являемся профессиональной компанией, которая занимается ремонтом и обслуживанием катлов любой сложности. Наши мастера имеют большой опыт и квалификацию, что позволяет им быстро и качественно выполнять работы. Мы предлагаем широкий спектр услуг, включая ремонт и замену деталей, диагностику и обслуживание. Свяжитесь с нами сегодня, чтобы узнать больше о наших услугах и получить бесплатную консультацию!</p>
-
-          
-          <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
-
-            <div class="col-lg-3 col-6">
-              <div class="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="162" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Клиенты</p>
+      <div class="row">
+        <div class="col-lg-5 order-1 order-lg-2">
+          <img style="width: 550px; height: 550px;" src="assets/img/оо3__1_-removebg-preview.png" alt="">
+        </div>
+        <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h3 data-aos="fade-up" data-aos-delay="100">Мы производим газификацию объектов различной сложности, оказываем услуги по проектированию, оформлению всей необходимой документации, строительству, вводу в эксплуатацию и обслуживанию систем газоснабжения на различных объектах в Калуге и Калужской области</h5>
+          <div class="row gy-4 elemnts" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-4 ">
+              <div class="stats-item text-center w-100 h-100 icons">
+                <i class="bi bi-calendar2-fill"></i>   
+                <h3>19 лет</h3>          
+                <p>на рынке газификации</p>
               </div>
             </div><!-- End Stats Item -->
-
-            <div class="col-lg-3 col-6">
+            <div class="col-4 ">
               <div class="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="78" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Проекты</p>
+                <i class="bi bi-briefcase-fill"></i>          
+                <h3>3400+</h3>
+                <p>выполненных проектов</p>
               </div>
             </div><!-- End Stats Item -->
-
-            <div class="col-lg-3 col-6">
+            <div class="col-4 ">
               <div class="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="187" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Ремонт</p>
+                <i class="bi bi-hand-thumbs-up-fill"></i>             
+                <h3>5000+</h3>
+                <p>выполненных проектов</p>
               </div>
             </div><!-- End Stats Item -->
-
           </div>
+          <a href="#form"> <button id="zaiavka" type="button" class="btn btn-danger">Оставить заявку</button></a>
         </div>
       </div>
     </div>
   </section><!-- End Hero Section -->
+  
 
-  <main id="main">
 
-    <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
-            <div class="icon flex-shrink-0"><i class="bi bi-telephone-forward-fill"></i></div>
-            <div>
-              <h4 class="title">Оставить заявку</h4>
-              <p class="description">Свяжитесь с нами по телефону или оставьте заявку на сайте, и мы запишем ваш заказ.</p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-truck"></i></div>
-            <div>
-              <h4 class="title">Выезд</h4>
-              <p class="description"> Наш мастер выедет к вам в удобное для вас время и проведет диагностику проблемы с катлом.</p>
-          
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-tools"></i></div>
-            <div>
-              <h4 class="title">Ремонт</h4>
-              <p class="description">После определения неисправности, мастер проведет необходимый ремонт или замену деталей, чтобы ваш катол работал исправно.</p>
-           
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Featured Services Section -->
-
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about pt-0">
-      <div class="container" data-aos="fade-up">
-<div class="section-header">
-  <span>Наша кампания</span>
-  <h2>наша кампания</h2>
-</div>
-        <div class="row gy-4">
-          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="assets/img/worker-repairing-water-heater (2).jpg" class="img-fluid" alt="">
-            
-          </div>
-          <div class="col-lg-6 content order-last  order-lg-first">
-            <h3>О Нас</h3>
-            <p>
-              Наша компания работает на рынке отопительного оборудования с 2005 года. Мы специализируемся на монтаже систем
-              газоснабжения, отопления, водоснабжения для жилых и производственных объектов.
-            </p>
-            <ul>
-              <li data-aos="fade-up" data-aos-delay="100">
-                <i class="bi bi-diagram-3"></i>
-                <div>
-                  <h5>Ремонтно-профилактические</h5>
-                  <p>Также мы проводим ремонтно-профилактические работы по обслуживанию газового оборудования торговых марок, таких как BAXI,
-                  ARISTON, FERROLI, IMMERGAS, VAILLANT, PROTERM, VIESSMAN, BOSCH, BUDERUS, MORATOP.</p>
-                </div>
-              </li>
-              <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-fullscreen-exit"></i>
-                <div>
-                  <h5>Устанавливаем газовые проточные водонагреватели</h5>
-                  <p>Мы также устанавливаем газовые проточные водонагреватели (колонки) от брендов BAXI, VAILLANT, BOSCH, ELECTROLUX,
-                  JUNKERS, ARISTON, OASIS. Наша сервисная служба предоставляет информационно-техническую поддержку нашим клиентам и
-                  проводит пусконаладочные работы, что предоставляет нашим клиентам право на гарантийное и постгарантийное обслуживание
-                  отопительного обору</p>
-                </div>
-              </li>
-              
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-
-   
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action" class="call-to-action">
@@ -187,8 +121,8 @@ Undelete<!DOCTYPE html>
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h3>Отправить заявку</h3>
-            <p> Оставите заявку ниже чтобы мы могли связаться с вами и предоставить <br> вам необходимую информацию.</p>
-            <a class="cta-btn" href="get-a-quote.html">Отправить заявку</a>
+            <p>Оставьте заявку ниже, чтобы мы могли связаться с Вами и предоставить <br> всю необходимую информацию</p>
+            <a class="cta-btn" href="#form">Оставить заявку</a>
           </div>
         </div>
 
@@ -198,79 +132,130 @@ Undelete<!DOCTYPE html>
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container">
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-
+        <div id="proectirov" class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          <h3>Проектирование</h3>
           <div class="col-md-5">
-            <img src="assets/img/worker-repairing-water-heater.jpg" class="img-fluid" alt="">
+            <img src="assets/img/dom.png" class="img-fluid" alt="">
           </div>
           <div class="col-md-7">
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            
+            <p>
+              Для выполнения работ по газификации и теплоснабжению объектов необходимо наличие проектно-сметной документации (ПСД). 
+              Проектные работы необходимы для: 
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-              <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-              <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
+              <li><i class="bi bi-check"></i> наружных газовых сетей;</li>
+              <li><i class="bi bi-check"></i> систем внутреннего газоснабжения;</li>
+              <li><i class="bi bi-check"></i> газового оборудования для промышленных и сельскохозяйственных предприятий;</li>
+              <li><i class="bi bi-check"></i> общественных и жилых зданий.</li>
+
             </ul>
+
           </div>
         </div><!-- Features Item -->
 
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+        <div id="gazfic" class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          <h3>Газификация промышленных объектов </h3>
+
           <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/service-man-adjusting-house-heating-system.jpg" class="img-fluid" alt="">
+            <img src="assets/img/depositphotos_94901106-stock-photo-piping-systems-industrial-equipment-interior.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1">
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            </p>
             <p>
-              Мы гарантируем качество наших услуг и оперативность в решении ваших проблем с катлом. Не стесняйтесь связаться с нами, чтобы узнать больше о наших услугах и получить бесплатную консультацию!"
-            </p>
+              Предоставляем полный комплекс услуг по проектированию, монтажу и вводу в эксплуатацию с дальнейшим обслуживанием систем газоснабжения промышленных объектов в Калуге и в Калужской̆ области.
+
+              Что вызывает необходимость проложить систему газоснабжения к заводу, фабрике, комбинату или к электростанции? В первую очередь, газификация промышленных объектов обеспечивает их бесперебойным отоплением. Во-вторых, это возможность непрерывной подачи горячей воды. <br> <br> В-третьих, газ может использоваться в различных технологических процессах в качестве топлива, а некоторым предприятиям нужна подача пара. 
+              
+              Позвоните или напишите нам, и мы подробно расскажем об организации систем газоснабжения на производственных предприятиях. 
+              
+              За долгие годы работы нами накоплен огромный опыт, позволяющий с полной ответственностью заявлять о том, что газификация промышленных объектов является для нас одним из приоритетных направлений.            </p>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          <h3 id="dom">Газификация домов  </h3>
           <div class="col-md-5">
-            <img src="assets/img/worker-repairing-water-heater (1).jpg" class="img-fluid" alt="">
+            <img src="assets/img/gazafecatia-min.png" class="img-fluid" alt="">
           </div>
           <div class="col-md-7">
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-            <ul>
-              <li><i class="bi bi-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-              <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-              <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-            </ul>
+            <p>Мы оказываем полный спектр услуг по газификации частных домов под ключ. 
+<br> <br>
+              Работы выполняются профессионалами согласно всем требованиям к газовым работам, качественно, быстро и безопасно. 
+              <br><br>
+              Оборудование и материалы, которые использует наша компания, самого высокого качества, от проверенных зарубежных и отечественных производителей, с которыми мы работаем на протяжении многих лет. 
+              <br><br>
+              Чтобы заказать газификацию частного дома, Вы можете позвонить по телефону или оставить заявку.
+              <br><br>
+              Наши специалисты помогут Вам рассчитать стоимость и сделать заказ.</p>
           </div>
         </div><!-- Features Item -->
+
+
+        
+        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+          <h3 id="snt">Газификация СНТ </h3>
+
+          <div class="col-md-5 order-1 order-md-2">
+            <img src="assets/img/gazreg01.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1">
+            <p>
+Газификация садовых товариществ.
+<br><br>
+Газификация садоводческого товарищества некоммерческого типа сокращает затраты на отопление для владельцев недвижимости.
+<br><br>
+Отдельное положение о газификации в СНТ не предусмотрено законодательством, так как любое садоводческое некоммерческое товарищество с технической точки зрения не отличается от обычного населенного пункта.
+<br><br>
+Мы готовы предложить Вам полный̆ комплекс услуг по проектированию, монтажу, строительству, вводу в эксплуатацию и обслуживанию систем газоснабжения садовых товариществ в Калуге и в Калужской̆ области.</p>
+          </div>
+        </div><!-- Features Item -->
+
+
+
 
 
       </div>
     </section><!-- End Features Section -->
 
 
+    <section id="call-to-action1" class="call-to-action1">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h3>Отправить заявку</h3>
+            <p>Оставьте заявку ниже, чтобы мы могли связаться с Вами и предоставить <br> всю необходимую информацию</p>
+            <a class="cta-btn" href="#form">Оставить заявку</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Call To Action Section -->
+    <br><br><br>
+
+    <div class="section-header">
+      <h2>Отзывы</h2>
+    </div>
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
+      
+   
       <div class="container">
-
+     
         <div class="slides-1 swiper" data-aos="fade-up">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Елена Павлова</h3>
+             
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Благодарю коллектив «Техногаз-Сервис" за отлично выполненную работу. Дозвонилась сразу, »заявку приняли по телефону и назначили подключение на ближайший рабочий день. Мастер Сергей  предупредил о визите за час, явился в назначенное время, подключил котел. Проверил его работу, закрепил газовую трубу к стене, сделал отметку о подключении прибора в паспорте, провёл подробный инструктаж по пользованию и Правилам эксплуатации. 
+                  Фирм много, но никто не мог бы сделать лучше. «Техногаз-Сервис» - супер!
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -278,67 +263,124 @@ Undelete<!DOCTYPE html>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Дмитрий Игоревич Полесов</h3>
+                
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bi bi-quote quote-icon-right"></i>
+                  Пишу, пока свежи эмоции. На днях запустили в моем новом коттедже газовое отопление. Здорово, удобно, практично. Я думал, это долгий процесс. Оказывается, все быстро и довольно просто. Потраченных денег совсем не жаль. Подрядчик был «Техногаз-Сервис». Как только позволила погода, специалисты этой компании взялись за дело. Монтажники просто молодцы! Работают как положено, без перекуров, мата и задумчивого почесывания затылка. Видно, что знают и любят свое дело.  Всю систему скомплектовали заранее, когда делали проект и подписывали договор. Что приятно, все заготовленное оборудование лежало на складе и ждало своего часа. Когда его осматривали, сделали метки, что говорит о добросовестности компании. Приятно работать с приятными людьми! Успехов вам в вашей работе!                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Алексей Лебедев</h3>
+               
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bi bi-quote quote-icon-right"></i>
+                  По проекту моя строящаяся дача должна быть газифицирована. Основное строительство закончено. Нужны коммуникации. Что-то весна в этом году так себе.  Ну да ладно. Свет проведен, дело за газификацией. Знакомый рекомендовал обратиться в «Техногаз-Сервис». Что я и сделал. В целом все хорошо, даже более того. Скорость работы явно не в ущерб качеству. Ребята взяли за основу проекта уже готовый раздел по газификации дома. Что важно, соблюли все требования «Правил и норм», о чем мне отдельно сообщили. Думаю, им можно доверять. Все же газ – это довольно опасно в неумелых руках. «Техногаз-Сервис» - спасибо! Побольше клиентов и не снижать планку! Успехов вам!
+                                    <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Георгий Александрович Попов                </h3>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bi bi-quote quote-icon-right"></i>
+                  Пишу по просьбе жены. Монтировали газоснабжение в своем доме в прошлом году. Слаженность и профессионализм работы «Техногаз-Сервис» оставили много положительных эмоций. Супруга боялась, что мини-экскаватором все ее цветы помнут. Но специалисты выполнили свое задание очень точно, даже ювелирно. Хотя условия были стесненные и имели много преград. Спасибо  вам всем за быструю и качественную работу!
+                                    <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>Галина Петровна Мосина</h3>
+                <h4> Зам. директора пансионата</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bi bi-quote quote-icon-right"></i>
+                  Благодарим специалистов «Техногаз-Сервис» за то, что они в очень короткие сроки решили проблему с газификацией нашего пансионата. Все было сделано оперативно: расчеты, составление проекта, подбор оборудования и монтажные работы.                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Сергей Борисов                </h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Лет пять назад я оформлял установку газового отопления для своего загородного дома в компании «Техногаз-Сервис». Подход к работе и результат вполне меня удовлетворили. Вся система исправно работает и по сей день. Сестре понадобилось газифицировать свою дачу, я сразу вспомнил о вас и порекомендовал ей обратиться в «Тезногаз-Сервис». Все снова получилось просто отлично! Благодарим!                                    <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Зинаида Иванова Скоробогатова                </h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Долгие году у меня в СНТ «Урожай» был газ из баллона. Каждую неделю приходилось покупать новый баллон и везти за город. Неудобно. Особенно осенью, когда заготовки. Наконец-то с соседом договорились сделать газоснабжение на двоих. Подрядчика соседу рекомендовал кто-то из его знакомых. Посоветовали «Техногаз-Сервис». Советчик не обманул. Хотя у меня нет опыта общения с подобными фирмами, но на мой непрофессиональный взгляд вы хорошо работаете. Видимо ваш стиль – минимум разговоров и бумаг, максимум дела. Предлагаю вам сделать это вашим девизом. Предложили самый лучший вариант подведения газа. Буже рекомендовать соседям и знакомым вашу компанию.                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Ирина Евгеньевна Тихоненко                </h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Мои впечатления о работе компании «Техногаз-Сервис» самые положительные. В принципе, даже придраться не к чему. Очень полезная опция в вашей работе – это помощь в выборе оборудования. Спасибо за вашу работу, меня все устраивает! Удачи вам!
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Максим Валерьевич Костин                </h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Наконец-то осуществил свою мечту! В садовом доме сделал настоящее газоснабжение. Ну как «сделал»? Обратился к специалистам , которые в полной мере оправдали мои ожидания. Хочу поблагодарить сотрудников компании «Техногаз-Сервис» за хорошую работу, нормальное отношение к клиенту и помощи в выборе соответствующего оборудования. С момента запуска газа прошло уже больше 8 месяцев. Все работает как положено. Надеюсь пользоваться газом также без проблем долгое время. Весь монтаж, включая копку траншеи, установку оборудования, подключение котла и плиты пару дней. Что радует, практически не пострадали посадки и вообще, территорию привели в полный порядок без напоминаний. От меня компании «Техногаз-Сервис»  благодарность и пожелание успехов в работе!
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Алексей Анатольевич Малиновский</h3>
+                <h4>СНТ «Родничек»</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  «Техногаз-Сервис» - отличная компания с адекватными ценами, внимательным отношением к клиенту в начале работы и в последующем. Провели газ еще три года назад, все прошло отлично. По сей день все исправно функционирует, нареканий никаких. Желаю дальнейшего процветания и побольше клиентов!                </div>
+            </div>
+
 
           </div>
           <div class="swiper-pagination"></div>
@@ -348,22 +390,169 @@ Undelete<!DOCTYPE html>
     </section><!-- End Testimonials Section -->
 
 
-    <!-- 
-Dev by: Lihex Andrade 27/07/2020
--->
+    <section id="gallery" class="gallery">
+      <div class="section-header">
+        <h2> Примеры наших работ</h2>
+      </div>
+      <div class="section-header">
+        <p>Познакомьтесь с работами, выполненными компанией «Техногаз-Сервис» на различных объектах в Калуге и Калужской области</p>
+      </div>
 
+    <div class="container-fluid">   
+          <ul class="cards1">
+            <li class="card1">
+                <div class="card-content">
+                  <div class="gallery-item">
+                    <a href="assets/img/5.jpg" class="galelry-lightbox">
+                      <img src="assets/img/5.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+              
+            </li>
+            <li class="card1">
+                <div class="card-content">
+                  <div class="gallery-item">
+                  
+                      <a href="assets/img/9.jpg" class="galelry-lightbox">
+                        <img src="assets/img/9.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+              
+            </li>
+            <li class="card1">
+              <div class="card-content">
+                <div class="gallery-item">
+                  <a href="assets/img/6.jpg" class="galelry-lightbox">
+                    <img src="assets/img/6.jpg" alt="" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+            
+          </li>
+          <li class="card1">
+            <div class="card-content">
+              <div class="gallery-item">
+                <a href="assets/img/7.jpg" class= "galelry-lightbox">
+                  <img src="assets/img/7.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+        </li>       
+        </ul>
+
+        
+      </div>
+      <ul class="cards1">
+        <li class="card1">
+            <div class="card-content">
+              <div class="gallery-item">
+                <a href="assets/img/2 (1).jpg" class="galelry-lightbox">
+                  <img src="assets/img/2 (1).jpg" alt="" class="img-fluid">
+              </a>
+              </div>
+            </div>
+          
+        </li>
+        <li class="card1">
+            <div class="card-content">
+              <div class="gallery-item">
+              
+                  <a href="assets/img/3.jpg" class="galelry-lightbox">
+                    <img src="assets/img/3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          
+        </li>
+        <li class="card1">
+          <div class="card-content">
+            <div class="gallery-item">
+              <a href="assets/img/1 (1).jpg" class="galelry-lightbox">
+                <img src="assets/img/1 (1).jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        
+      </li>
+      <li class="card1">
+        <div class="card-content">
+          <div class="gallery-item">
+            <a href="assets/img/12.jpg" class= "galelry-lightbox">
+              <img src="assets/img/12.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+    </li>       
+    </ul>
+        </div>
+
+
+      </div>
+      <ul class="cards1">
+        <li class="card1">
+            <div class="card-content">
+              <div class="gallery-item">
+                <a href="assets/img/001.jpg" class="galelry-lightbox">
+                  <img src="assets/img/001.jpg" alt="" class="img-fluid">
+              </a>
+              </div>
+            </div>
+          
+        </li>
+        <li class="card1">
+            <div class="card-content">
+              <div class="gallery-item">
+              
+                  <a href="assets/img//002.jpg" class="galelry-lightbox">
+                    <img src="assets/img/002.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          
+        </li>
+        <li class="card1">
+          <div class="card-content">
+            <div class="gallery-item">
+              <a href="assets/img/г-2.jpg" class="galelry-lightbox">
+                <img src="assets/img/г-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        
+      </li>
+      <li class="card1">
+        <div class="card-content">
+          <div class="gallery-item">
+            <a href="assets/img/004.jpg" class= "galelry-lightbox">
+              <img src="assets/img/004.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+    </li>       
+    </ul>
+        </div>
+        
+      </div>   
+      
+      </div>
+
+
+    </div>
+  </section>  
 
 
   
+
+
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <span>Самые распространенные вопросы:</span>
           <h2>Самые распространенные вопросы:</h2>
-
         </div>
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -375,13 +564,17 @@ Dev by: Lihex Andrade 27/07/2020
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Как часто нужно производить обслуживание катла?
+                    Исправное газовое оборудование и бесперебойность его работы - залог безопасности тепла и уюта в каждом доме? 
+
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Частота необходимости производить обслуживание катла зависит от множества факторов, таких как тип катла, топливо, среда использования, использование и т.д.
-Обычно рекомендуется производить обслуживание катла раз в год.
+                    Именно потому, если вдруг у Вас сломался котел и необходим квалифицированный ремонт специалиста, Вы можете обратиться в компанию «Техногаз-Сервис» по телефонам: 8 (4842) 56-56-15, 57-16-91 и мы оперативно поможем Вам решить возникшую проблему.
+
+                    Кроме этого наличие собственного склада запасных частей на оборудование позволит в максимально быстрые сроки устранить все неполадки и вернуть тепло в дом. 
+                    
+                    Если окажется, что нужной запчасти не оказалось в наличии у нас на складе, мы привезем ее под заказ. 
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -390,15 +583,15 @@ Dev by: Lihex Andrade 27/07/2020
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Как узнать, что катол требует ремонта?
+                    Что входит в понятие пуско-наладочные работы?
+
                   </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Если катол не запускается или запускается с трудом. <br>
-                    Если катол не горит или горит с нестабильным огнем. <br>
-                    Если из катла идет дым или запах.<br>
-                    Если катол издает необычные звуки или шумы.<br>
+                    С момента проведения монтажных и пусконаладочных  работ нашими специалистами, Вы получаете гарантию завода-производителя оборудования, а также правильную настройку всех параметров работы Вашего газового котла.
+
+                    Кроме того, мы проведем необходимый первичный инструктаж и выберем наиболее подходящий режима работы, комфортный именно для Вашего дома.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -407,13 +600,13 @@ Dev by: Lihex Andrade 27/07/2020
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Насколько дорого будет ремонт моего катла?
+                    Как часто нужно проводить обслуживание котла?
+
                   </button>
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Стоимость ремонта котла зависит от множества факторов, таких как тип катла, степень сложности ремонта, необходимость замены деталей и т.д. Некоторые простые ремонты могут стоить недорого, а некоторые более сложные ремонты могут стоить дороже. Чтобы узнать точную стоимость ремонта вашего катла, рекомендуется обратиться к нашей компанией и получить бесплатную консультацию.                  </div>
-
+                    Частота необходимости производить обслуживание котла зависит от множества факторов, таких как тип котла, топливо, среда использования и т.д. Но хотя бы раз в год газовый котел должен проходить техническое обслуживание. Это позволит продлить срок его службы и своевременно заметить проблемы в работе.
                 </div>
               </div><!-- # Faq item-->
 
@@ -421,14 +614,22 @@ Dev by: Lihex Andrade 27/07/2020
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Как долго займет ремонт катла?
+                    Как узнать, что котел требует ремонта?
+
                   </button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Длительность ремонта катла зависит от степени сложности ремонта и наличия необходимых деталей. Некоторые простые ремонты могут занять несколько часов, а некоторые более сложные ремонты могут занять несколько дней или даже недель. 
-                  </div>
+                    1.	Обычно рекомендуется производить обслуживание котла раз в год. <br>
+
+                    2.	Если котел не запускается или запускается с трудом.  <br>
+                    
+                    3.	Если котел не горит или горит с нестабильным огнем.  <br>
+                    
+                    4.	Если из котла идет дым или запах. <br>
+                    
+                    5.	Если кот\ел издает необычные звуки или шумы.       <br>            </div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -436,203 +637,242 @@ Dev by: Lihex Andrade 27/07/2020
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Какую гарантию Вы предоставляете на ремонт катла?
+                    Насколько дорогим будет ремонт моего котла?
+
                   </button>
                 </h3>
                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                   ..................
+                    Стоимость ремонта котла зависит от множества факторов, таких как тип котла, степень сложности ремонта, необходимость замены деталей и т.д. Некоторые простые ремонты могут стоить недорого, а некоторые, более сложные, могут стоить дороже. Чтобы узнать точную стоимость ремонта Вашего котла, рекомендуется обратиться к нашим специалистам и получить бесплатную консультацию.
                   </div>
                 </div>
               </div><!-- # Faq item-->
 
-            </div>
 
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Сколько времени займет ремонт моего котла?
+                  </button>
+                </h3>
+                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Длительность ремонта котла зависит от степени сложности ремонта и наличия необходимых деталей. Некоторые простые ремонты могут занять несколько часов, а некоторые, более сложные, могут занять несколько дней или даже недель.                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Какую гарантию вы предоставляете на ремонт котла?
+                  </button>
+                </h3>
+                <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    На замененные детали - 1 год. Если документы о покупке у Вас не сохранились, началом гарантии на газовые котлы считается дата их изготовления. Если в течение гарантийного срока котел сломался по вине производителя, Вы можете воспользоваться услугой ремонта совершенно бесплатно.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+            </div>
           </div>
         </div>
-
       </div>
     </section><!-- End Frequently Asked Questions Section -->
-
   </main><!-- End #main -->
 
-
-
-  
-
-
-<section id="gallery" class="gallery">
-<div class="section-header">
-  <span>наше достижения</span>
-  <h2>наше достижения</h2>
-</div>
-  <div class="container-fluid">
-    <div class="row g-0">
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/10002.png" class="galelry-lightbox">
-            <img src="assets/img/10002.png" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/10003.png" class="galelry-lightbox">
-            <img src="assets/img/10003.png" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/10007.png" class="galelry-lightbox">
-            <img src="assets/img/10007.png" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/10002.png" class="galelry-lightbox">
-            <img src="assets/img/10002.png" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/WhatsApp Image 2022-08-26 at 14.04.11.jpeg" class="galelry-lightbox">
-            <img src="assets/img/gallery/WhatsApp Image 2022-08-26 at 14.04.11.jpeg" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/testimonials/2.jpg" class="galelry-lightbox">
-            <img src="assets/img/testimonials/2.jpg" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/testimonials/2.jpg" class="galelry-lightbox">
-            <img src="assets/img/testimonials/2.jpg" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/testimonials/2.jpg" class="galelry-lightbox">
-            <img src="assets/img/testimonials/2.jpg" alt="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section><!-- End Gallery Section -->
-
-
-
-
-
-<section class="logo_carusel">
-  <div class="brand-carousel section-padding owl-carousel">
-    <div class="single-logo">
-      <img src="assets/img/logo-ariston-removebg-preview.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="assets/img/S8HbBnXSrMI53YlTISJ7FFB6xlutxTpmzAjHkiGB-removebg-preview.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="assets/img/image__9_-removebg-preview.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="assets/img/Logo-Electrolux.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="assets/img/da00aa90521ccbb639ec2b5e0b6cae6a.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="assets/img/image (10).png" alt="">
-    </div>
-    <div class="single-logo">
-      <img src="assets/img/4_junkers-bosch-group-removebg-preview.png" alt="">
+  <div type="button" class="callback-bt">
+    <div class="text-call">
+      <i class="bi bi-telephone-forward-fill"></i>      
+      <a href="tel: +8(4842)565-615"><span>заказать<br>звонок</span></a>
     </div>
   </div>
+  <section id="form" class="bg-classic py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="fw-bold mb-3">У Вас есть вопросы?</h2>
+          <p>Задайте их нам! Опыт и знания наших сотрудников помогут Вам сделать правильный выбор. Мы будем рады видеть Вас в числе клиентов компании "Техногаз-Сервис"</p>
+        </div>
+        <div class="col-12">
+          <form method="post" name="Форма заявки" class="bg-white rounded p-4" action="form-submit.php" onsubmit="return submitForm()">
+            <input type="hidden" name="post_id" value="162">
+            <input type="hidden" name="form_id" value="0a2c710">
+            <input type="hidden" name="referer_title" value="Газификация частных домов и промышленных объектов - Альфа-газ - Альфа - газ">
+            <input type="hidden" name="queried_id" value="162">
+            <div class="mb-3">
+              <label for="form-field-name" class="form-label">Имя</label>
+              <input type="text" name="form_fields[name]" id="form-field-name" class="form-control" placeholder="Введите имя" required>
+            </div>
+            <div class="mb-3">
+              <label for="form-field-email" class="form-label">Телефон</label>
+              <input type="tel" name="form_fields[email]" id="form-field-email" class="form-control" placeholder="Телефон" required pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+            </div>
+            <button type="submit" class="btn btn-danger-form w-100" id="submit-button">Отправить</button>
+              <div id="submit-status"></div>
+
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
   
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2ed32f5e756b493ff7c33142d78921609f383a8991937f584e89f8502148924&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        <section class="clients" id="section_4">
+          <div class="container">
 
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>TehnoGaz</span>
-          </a>
-          <p>Мы гарантируем качество наших услуг и оперативность в решении ваших проблем с катлом. Не стесняйтесь связаться с нами, чтобы узнать больше о наших услугах и получить бесплатную консультацию!</p>
-          <div class="social-links d-flex mt-4">
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+            <div  class="clients-grid row">
+                <div class="section-header">
+                  <h2>Наши КЛИЕНТЫ</h2>
+                </div>
+              <div class="client col-sm-6 col-lg-3"><img style="width: 240px;"
+                  src="assets/img/2023-03-21_143803.jpg" alt="">
+                  <p>"Фора-банк". Главный офис.</p>
+              </div>
+              <div class="client col-sm-6 col-lg-3"><img style="width:200px; height: 120px;"
+                  src="assets/img/2023-03-21_150750.jpg" alt="">
+                  <p>Ресторан и кафе "Седьмое небо"</p>
+              </div>
+              <div class="client col-sm-6 col-lg-3"><img style="height: 100px; width: 130px;"
+                  src="assets/img/2023-03-22_162618.jpg" alt="">
+                  <p>Управление производственно-технической комплектации "Стройкомплект"</p>
+              </div>
+              <div class="client col-sm-6 col-lg-3"><img style="margin-top: 10px; width: 100%;"
+                  src="assets/img/Logo_0000.png" alt="">
+                  <p> Жилой комплекс "Воскресенское".</p>
+              </div>
+              <div class="clients-grid row" style="display: flex; justify-content: center; align-items: baseline;">
+
+              <br>
+                <div class="client col-sm-6 col-lg-3"><img style="height: 157px; margin: inherit;"  src="assets/img/Б45-min-removebg-preview.png"
+                    alt="">
+                    <p>Боулинг Клуб Б-45 </p>
+                </div>
+                <div class="client col-sm-6 col-lg-3"><img style="width: 180px; height: 90px;"
+                    src="assets/img/ласточка.jpg" alt="">
+                    <p>Оздоровительно-реабилитационный комплекс "Ласточка"</p>
+                </div>
+                <div class="client col-sm-6 col-lg-3"><img style="width: 150px; height: 115px;" src="assets/img/a_b04ce30a.jpg" alt="">
+                  <p>Детский оздоровительный лагерь "Строитель"</p>
+                </div>
           </div>
-        </div>
+        </section>
 
+
+<!-- Footer -->
+<footer id="footer" class="footer" >
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Компания  "Техногаз-Сервис"
+          </h6>
+          <p>
+            Мы гарантируем качество наших услуг и оперативность в решении Ваших проблем.
+<br> <br>
+Свяжитесь с нами, чтобы узнать больше о наших услугах и получить бесплатную консультацию
+          </p>
+         <a href="#form"><button type="button" class="btn btn-danger-footer">Оставить заявку</button></a> 
+
+
+        </div>
         
 
-     
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Контакты</h4>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Ссылки
+          </h6>
           <p>
-            <strong>Адрес:</strong> 248018 Калуга, ул.Хрустальная д.22 <br>
-            <br>
-            <strong>Телефон:</strong> +8(4842)565-615 <br>
-
-            <br>
-            <strong>Почта:</strong> tehnogaz40@yandex.ru
-
-            <br>
+            <a href="#compania" class="text-reset">О компании</a>
           </p>
-
+          <p>
+            <a href="#proectirov" class="text-reset">Проектирование</a>
+          </p>
+          <p>
+            <a href="#gazfic" class="text-reset">Газификация промышленных <br> объектов</a>
+          </p>
+          <p>
+            <a href="#dom" class="text-reset">Газификация домов</a>
+          </p>
+          <p>
+            <a href="#snt" class="text-reset">Газификация СНТ</a>
+          </p>
         </div>
+        <!-- Grid column -->
 
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            КЛИЕНТЫ
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Детский развлекательный центр «Хлоп-Хлоп»</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Пекарня «Бабынинский хлеб»     </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Завод «Пленка»             </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Теннисный центр на <br> ул. Салтыкова-Щедрина            </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Торгово-офисное здание на ул. Рылеева            </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Охотхозяйство «Рябцевское»            </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">СНТ «Каскад»            </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">СНТ "Урожай"</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Контакты</h6>
+          <p><i class="bi bi-geo-alt-fill me-3"></i> г. Калуга, ул. Хрустальная, д. 22          </p>
+          <p><i class="bi bi-telephone-fill me-3"></i></i> +7 (4842) 565-615, 571-691          </p>
+
+          <p>
+            <i class="bi bi-envelope-fill me-3"></i></i>
+            tehnogaz40@yandex.ru          </p>
+          <div style="display: flex; flex-direction: column;">
+            <p><i class="bi bi-clock me-3"></i>понедельник-пятница: с 6.00 до 17.00, без обеда            </p>
+        </div>
+         <p><i class="bi bi-calendar4-event me-3"></i></i> суббота-воскресенье: выходные дни         </p>
+        </div>
       </div>
     </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:TehnoGaz
+  </div>
 
-    <div class="container mt-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>TehnoGaz</span></strong>.
-      </div>
+</footer>
 
 
-  </footer>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+ <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="custom.js"></script>
-
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

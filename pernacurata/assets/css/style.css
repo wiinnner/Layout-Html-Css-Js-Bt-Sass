@@ -23,10 +23,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.gallery-item img{
-width: 325px;
-height: 245px;
-}
+
 
 
 .faq .accordion-item {
@@ -109,7 +106,7 @@ height: 245px;
   color: #fff;
 }
 
-.call-to-action .cta-btn {
+.cta-btn {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
@@ -123,12 +120,9 @@ height: 245px;
   color: #fff;
 }
 
-.call-to-action .cta-btn:hover {
-  background: var(--color-primary);
-  border: 2px solid var(--color-primary);
+.cta-btn .cta-btn:hover a {
+  background: #0d6efd;
 }
-
-
 
 
 
@@ -985,8 +979,6 @@ section {
     -webkit-transform: rotateZ(0deg);
   }
 }
-
-
 
 
 
@@ -1946,7 +1938,10 @@ section {
   transform: scale(1.1);
 }
 
-
+.gallery-item img{
+  width: 325px;
+  height: 245px;
+  }
 
 /*------------------------------------------------
 #forms

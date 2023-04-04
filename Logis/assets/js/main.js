@@ -147,7 +147,6 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     aos_init();
   });
-      
 
 });
 
@@ -155,6 +154,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+/**
+* Template Name: Medilab - v4.8.1
+* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 (function() {
   "use strict";
 
@@ -362,7 +368,6 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 2,
         spaceBetween: 20
       }
-      
     }
   });
 
@@ -370,26 +375,8 @@ document.addEventListener('DOMContentLoaded', () => {
    * Initiate Pure Counter 
    */
   new PureCounter();
-  
 
 })()
 
 
 
-
-$('.brand-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  autoplay:true,
-  responsive:{
-    0:{
-      items:1
-    },
-    700:{
-      items:3
-    },
-    1000:{
-      items:5
-    }
-  }
-}) 
